@@ -35,7 +35,7 @@ with st.container():
 
 with st.container():
     st.subheader("Hi, I am Arturs")
-    st.title("An Automation Engineer")
+    st.title("Automation Engineer")
     st.write(
         "I am passionate about finding ways to use Python to be more efficient and effective in business settings."
     )
