@@ -39,7 +39,7 @@ with st.container():
     st.write(
         "I am passionate about finding ways to use Python to be more efficient and effective in business settings."
     )
-    st.write("[Learn More >](https://alundbergs-new-product-streamlit-app-k8faur.streamlit.app/)")
+    st.write("[Learn More >](https://new-product2.zirnis.repl.co)")
 
 # ---- WHAT I DO ----
 with st.container():
