@@ -39,7 +39,7 @@ with st.container():
     st.write(
         "I am passionate about finding ways to use Python to be more efficient and effective in business settings."
     )
-    st.write("[Learn More >](https://new-product2.zirnis.repl.co)")
+    st.write("[Learn More >](https://lundbergsprd.streamlit.app/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -79,7 +79,7 @@ with st.container():
             In this tutorial, I'll show you exactly how to do it
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+        st.markdown("[Watch Video...](https://youtu.be/dJQn4DqzMVQ)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -92,7 +92,7 @@ with st.container():
             I'm going to show you how to create mobile app using a free service.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+        st.markdown("[Watch Video...](https://youtu.be/liZThmkIwys)")
 
 # ---- CONTACT ----
 with st.container():
