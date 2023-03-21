@@ -105,7 +105,7 @@ with st.container():
         st.subheader("Static Ecommerce Website")
         st.write(
             """
-            Ecommerce Website with integrated Stripe Payment Solution?
+            Ecommerce Website with integrated Stripe Payment Solution.
             """
         )
         st.markdown("[Project Link...](https://lundbergsprd.streamlit.app/)")
