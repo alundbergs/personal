@@ -31,6 +31,7 @@ img_profile = Image.open("images/arturs.png")
 img_project_3 = Image.open("images/addon.png")
 img_project_4 = Image.open("images/project_4.png")
 img_project_5 = Image.open("images/project_5.png")
+img_project_6 = Image.open("images/project_6.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -132,6 +133,18 @@ with st.container():
             """
         )
         st.markdown("[Project Link...](https://flasktaskmaster.zirnis.repl.co/)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_6)
+    with text_column:
+        st.subheader("Smart Factory Digital Twin")
+        st.write(
+            """
+            Data driven Smart Factory Digital Twin Web App.
+            """
+        )
+        st.markdown("[Project Link...](https://xlsdash.streamlit.app/)")
         
 # ---- CONTACT ----
 with st.container():
