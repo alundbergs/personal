@@ -28,6 +28,7 @@ lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fc
 img_contact_form = Image.open("images/yt_project_2.png")
 img_lottie_animation = Image.open("images/yt_project_1.png")
 img_profile = Image.open("images/arturs.png")
+img_project_3 = Image.open("images/addon.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -57,7 +58,7 @@ with st.container():
             If this sounds interesting to you, be free to Contact me.
             """
         )
-        st.write("[Email >](mailto:a.lundbergs@gmail.com)")
+        st.write("[Email](mailto:a.lundbergs@gmail.com)")
     with right_column:
         st.write("##")
 
@@ -93,6 +94,18 @@ with st.container():
             """
         )
         st.markdown("[Watch Video...](https://youtu.be/liZThmkIwys)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_3)
+    with text_column:
+        st.subheader("Static Ecommerce Website")
+        st.write(
+            """
+            Want to add a Ecommerce Website to your Project?
+            """
+        )
+        st.markdown("[Project Link...](https://lundbergsprd.streamlit.app/)")
 
 # ---- CONTACT ----
 with st.container():
