@@ -116,7 +116,7 @@ with st.container():
         st.subheader("Full Stack Ecommerce App")
         st.write(
             """
-            Full Stack Ecommerce App with user and Product SQL DB, user Login System, automatic Google Signup and integrated Stripe Payment Solution.
+            Full Stack Ecommerce App with user and product SQL DB, user Login System, automatic Google Signup and integrated Stripe Payment Solution.
             """
         )
         st.markdown("[Project Link...](https://y4ktyhwycn3jnxl5.anvil.app/RKD7O6X6DPKPBAOE7QDDEZBQ)")
