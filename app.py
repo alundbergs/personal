@@ -29,6 +29,7 @@ img_contact_form = Image.open("images/yt_project_2.png")
 img_lottie_animation = Image.open("images/yt_project_1.png")
 img_profile = Image.open("images/arturs.png")
 img_project_3 = Image.open("images/addon.png")
+img_project_4 = Image.open("images/project_4.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -102,11 +103,23 @@ with st.container():
         st.subheader("Static Ecommerce Website")
         st.write(
             """
-            Want to add a Ecommerce Website to your Project?
+            Ecommerce Website with integrated Stripe Payment Solution?
             """
         )
         st.markdown("[Project Link...](https://lundbergsprd.streamlit.app/)")
-
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_4)
+    with text_column:
+        st.subheader("Full Stack Ecommerce App")
+        st.write(
+            """
+            Full Stack Ecommerce App with user and Product SQL DB, user Login System, automatic Google Signup and integrated Stripe Payment Solution.
+            """
+        )
+        st.markdown("[Project Link...](https://y4ktyhwycn3jnxl5.anvil.app/RKD7O6X6DPKPBAOE7QDDEZBQ)")
+        
 # ---- CONTACT ----
 with st.container():
     st.write("---")
