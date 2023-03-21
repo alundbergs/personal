@@ -30,6 +30,7 @@ img_lottie_animation = Image.open("images/yt_project_1.png")
 img_profile = Image.open("images/arturs.png")
 img_project_3 = Image.open("images/addon.png")
 img_project_4 = Image.open("images/project_4.png")
+img_project_5 = Image.open("images/project_5.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -119,6 +120,18 @@ with st.container():
             """
         )
         st.markdown("[Project Link...](https://y4ktyhwycn3jnxl5.anvil.app/RKD7O6X6DPKPBAOE7QDDEZBQ)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_5)
+    with text_column:
+        st.subheader("Flask Taskmaster Web App")
+        st.write(
+            """
+            Basic Flask Taskmaster Web App with Add, Delete and Update Functions.
+            """
+        )
+        st.markdown("[Project Link...](https://flasktaskmaster.zirnis.repl.co/)")
         
 # ---- CONTACT ----
 with st.container():
