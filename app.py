@@ -76,14 +76,13 @@ with st.container():
     with image_column:
         st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Your Streamlit Apps")
+        st.subheader("Integrate Datasets in Your Streamlit Apps")
         st.write(
             """
-            Learn how to use Files in Streamlit!
-            In this tutorial, I'll show you exactly how to do it
+            Learn how to load hundreds of datasets in a Streamlit app with PyDataset.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/dJQn4DqzMVQ)")
+        st.markdown("[Watch Video...](https://youtu.be/bNaRdDWR-W4)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
@@ -93,10 +92,10 @@ with st.container():
         st.write(
             """
             Want to add a mobile App to your Project?
-            I'm going to show you how to create mobile app using a free service.
+            Here is how to create mobile app using a free Framework.
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/liZThmkIwys)")
+        st.markdown("[Watch Video...](https://youtu.be/mUdnjNGePZw)")
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
