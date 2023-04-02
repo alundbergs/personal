@@ -32,6 +32,7 @@ img_project_3 = Image.open("images/addon.png")
 img_project_4 = Image.open("images/project_4.png")
 img_project_5 = Image.open("images/project_5.png")
 img_project_6 = Image.open("images/project_6.png")
+img_project_7 = Image.open("images/project_7.png")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -144,6 +145,18 @@ with st.container():
             """
         )
         st.markdown("[Project Link...](https://xlsdash.streamlit.app/)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_7)
+    with text_column:
+        st.subheader("Business Automations")
+        st.write(
+            """
+            Marketing Automation and Workflow creation.
+            """
+        )
+        st.markdown("[Project Link...](https://student-27135688.hubspotpagebuilder.eu/landing)")
         
 # ---- CONTACT ----
 with st.container():
