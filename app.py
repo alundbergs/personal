@@ -33,6 +33,7 @@ img_project_4 = Image.open("images/project_4.png")
 img_project_5 = Image.open("images/project_5.png")
 img_project_6 = Image.open("images/project_6.png")
 img_project_7 = Image.open("images/project_7.png")
+img_project_all = Image.open("images/projects_all.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -157,6 +158,21 @@ with st.container():
             """
         )
         st.markdown("[Project Link...](https://student-27135688.hubspotpagebuilder.eu/landing)")
+with st.container():
+    image_column, text_column = st.columns((1, 2))
+    with image_column:
+        st.image(img_project_all)
+    with text_column:
+        st.subheader("Other Projects")
+        st.write(
+            """
+            Click on Links:
+            """
+        )
+        st.markdown("[Company Website...](https://lundbergs.netlify.app/)")
+        st.markdown("[Collaborative Database for Industry...](https://airtable.com/appPF6TVXYykEkRzb/tblAukmk0Kd1aM2tN/viwJfegfXH83WKZvX?blocks=hide)")
+        st.markdown("[Plant Design Bot Demo...](https://plant-design.anvil.app/)")
+
         
 # ---- CONTACT ----
 with st.container():
