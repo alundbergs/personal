@@ -169,9 +169,9 @@ with st.container():
             Click on Links:
             """
         )
-        st.markdown("[Company Website...](https://lundbergs.netlify.app/)")
-        st.markdown("[Collaborative Database for Industry...](https://airtable.com/appPF6TVXYykEkRzb/tblAukmk0Kd1aM2tN/viwJfegfXH83WKZvX?blocks=hide)")
-        st.markdown("[Plant Design Bot Demo...](https://plant-design.anvil.app/)")
+        st.markdown("[Consulting Website...](https://lundbergs.netlify.app/)")
+        st.markdown("[Open Database Solution for Industry...](https://airtable.com/appPF6TVXYykEkRzb/tblAukmk0Kd1aM2tN/viwJfegfXH83WKZvX?blocks=hide)")
+        st.markdown("[Plant Design Answer Assistant...](https://f5ctowkbfel5dues.anvil.app/A5DW2IMJQ6CXWQA62KBFCITB)")
 
         
 # ---- CONTACT ----
